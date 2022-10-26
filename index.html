@@ -15,116 +15,110 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
         <link href="css/bootstrap.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(50,50,50,0.75);">
             <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top">Início</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
+                <a class="navbar-brand fw-bold" href="#page-top" style="color: white;">Início</a>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#sobre" style="color: white;">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#servicos" style="color: white;">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#projetos" style="color: white;">Projetos</a></li>
                     </ul>
-                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
-                        <span class="d-flex align-items-center">
-                            <i class="bi-chat-text-fill"></i>
-                            <span class="small">Contato</span>
-                        </span>
-                    </button>
+                    <a class="nav-item nav-link" href="#contact">                        
+                        <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" class="nav-item nav-link" href="#contact">
+                            <span class="d-flex align-items-center">
+                                <i class="bi-chat-text-fill"></i>
+                                <span class="small">Contato</span>
+                            </span>            
+                        </button>
+                    </a>
                 </div>
             </div>
         </nav>
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Seja Bem-vindo(a)</h1>
-                <h3 class="mb-5"><em>A seguir nós temos o meu portfolio de desenvolvimento de sistemas</em></h3>
-                <a class="btn btn-primary btn-xl" href="#about"></a>
+                <h1 class="mb-1" style="color: rgb(228, 228, 228);">Seja Bem-vindo(a)</h1>
+                <h3 class="mb-5" style="color: rgb(228, 228, 228);"><em>A seguir nós temos o meu portfolio de desenvolvimento de sistemas</em></h3>
+                <a class="btn btn-primary btn-xl" href="https://github.com/gustavoIL">Ir para o GitHub</a>
             </div>
         </header>
         <!-- About-->
-        <section class="content-section bg-light" id="about">
+        <section class="content-section bg-light" id="sobre">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                        <h2>Quem sou eu?</h2>
                         <p class="lead mb-5">
-                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            <a href="https://unsplash.com/">Unsplash</a>
-                            !
+                            Me chamo Gustavo, tenho 20 anos e sou um estudante de Análise e Desenvolvimento de Sistema e atualmente estou operando na área de comunicação visual e design como gerente de projetos. Também formado como técnico em informática pelo IFSP, sou totalmente capacitado para trabalhar na liderança como também em projetos que envolvam considerávelmente a área de UI e UX design.
                         </p>
-                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                        <a class="btn btn-dark btn-xl" href="https://bra.ifsp.edu.br">IFSP</a>
+                        <a class="btn btn-dark btn-xl" href="https://instagram.com/grafica_lopes">Lopes</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
+        <section class="content-section text-white text-center" id="servicos" style="background-color: #2e1570;">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What We Offer</h2>
+                    <h3 class="mb-0" style="color: #db1ad5;">Projetos</h3>
+                    <h2 class="mb-5">O que Posso Oferecer</h2>
                 </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Responsive</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                        <h4><strong>Apps</strong></h4>
+                        <p class="text-faded mb-0">Um ótimo design e apresentação para seu aplicativo</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                        <h4><strong>Design Gráfico</strong></h4>
+                        <p class="text-faded mb-0">Criação de artes e projetos impressos que ampliam o alcance da sua marca</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Favorited</strong></h4>
+                        <h4><strong>Treinamento</strong></h4>
                         <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
+                            Capacitado e disposto a treinar a equipe para diversas situações e projetos                                                    
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Question</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                        <h4><strong>Gerência</strong></h4>
+                        <p class="text-faded mb-0">Posso organizar a equipe e os recursos a fim de fornecer a melhor eficiência para a empresa</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Callout-->
         <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
+            <div class="container px-5 px-lg-5 text-center">
+                <h2 class="mx-auto mb-5" style="color: rgb(228, 228, 228)";>
+                    Defina o futuro da sua empresa
                 </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+                <a class="btn btn-primary btn-xl" href="https://github.com/gustavoIL">Clique Aqui!</a>
             </div>
         </section>
         <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
+        <section class="content-section" id="projetos">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
+                    <h3 class="mb-0" style="color: #db1ad5;">Projetos</h3>
+                    <h2 class="mb-5">Projetos Recentes</h2>
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Stationary</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                    <div class="h2">Módulo de Orçamentos</div>
+                                    <p class="mb-0">Aplicação que permite um cálculo de orçamento automático para o ramo de comunicação visual</p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
@@ -134,8 +128,8 @@
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                    <div class="h2">Projeto VUE</div>
+                                    <p class="mb-0">Sistema de reprodução de escrita simultânea</p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
@@ -145,8 +139,8 @@
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                    <div class="h2">FindEats</div>
+                                    <p class="mb-0">App capaz de promover um melhor controle da sua alimentação e com mais eficiência</p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
@@ -156,22 +150,22 @@
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                    <div class="h2">FindEats</div>
+                                    <p class="mb-0">App capaz de promover um melhor controle da sua alimentação e com mais eficiência</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
+        <section class="content-section text-white" style="background-color: #2e1570;">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+                <h2 class="mb-4">Não Deixe a Oportunidade Passar</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">E-mail</a>
+                <a class="btn btn-xl btn-dark" href="#!">WhatsApp</a>
             </div>
         </section>
         <!-- Map-->
@@ -194,7 +188,6 @@
                         <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2022</p>
             </div>
         </footer>
         <!-- Scroll to Top Button-->
